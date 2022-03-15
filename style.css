@@ -1,10 +1,18 @@
-*{
-    margin:0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-#canvas{
-    height: 100vh;
-    border: 1px solid red;
+html, body {
+    overflow-x: hidden;
+  }
+  body {
+    position: relative;
+  }
+  
+
+#canvas {
+  display: block;
+  border: 1px solid red;
 }
