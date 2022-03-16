@@ -4,12 +4,11 @@
   box-sizing: border-box;
 }
 
-html, body {
-    overflow-x: hidden;
+body {
+    overflow: hidden;
+    margin: 0;
   }
-  body {
-    position: relative;
-  }
+
   
 
 #canvas {
